@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+.album_header {
+	margin-top: 0px;
+	text-align:center;
+}
+
+.surrounded_download {
+	font-size: 13pt;
+	text-align: center;
+}
+
+a.surrounded_title {
+	text-decoration: none;
+}
+
+a:link {text-decoration: underline; color: rgb(255, 255, 255)}
+a:visited {text-decoration: underline; color: rgb(255, 255, 255)}
+a:active {text-decoration: underline; color: rgb(255, 255, 255)}
+
+
+a.album_link {
+	text-decoration: none;
+}
+
+a.lyrics_link {
+	color: rgb(84,70,55);
+}
+
+.cover_image {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.album_icons_div {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20px;
+}
+
+.album_icon {
+	text-align:center;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: -20px;
+}
+
+.cover_image_right {
+	text-align: right;
+	padding-right: 182px;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 9.5pt;
+}
+
+#a_fools_game_by_text {
+	margin-top: 8px;
+}
+
+.album_by_text {
+	margin-top: 8px;
+}
+
+.song_info_div {
+	text-align: center;
+}
+
+.song_list_title {
+	margin-bottom: -5px;
+}
+
+.song_list_p {
+	line-height: 22px;
+	font-size: 12pt;
+}
+
+#album_table {
+	width:100%;
+	border-collapse:collapse;
+}
+
+.album_info_text {
+	text-align: center;
+	font-size: 10pt;
+	font-weight: normal;
+	margin-top: 5px;
+}
+
+.small_album_img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.album_div {
+	display: table-cell; vertical-align: middle
+}
+
+#nav_music {
+	background-image: url('../images/nav_item_bg.png');
+}
+
+.show_all_container {
+	position: relative;
+}
+
+.show_all_div {
+	position: absolute;
+	left: -10px;
+	top: -30px;
+	text-decoration: none;
+}
+
+.centered_td {
+	text-align: center;
+}
+
+.paypal_button {
+	text-align:center;
+}

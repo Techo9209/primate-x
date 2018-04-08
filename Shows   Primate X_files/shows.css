@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+#shows_div {
+	text-align:center;
+}
+
+.upcoming_shows_header {
+	text-align:center;
+	margin-top: 0px;
+}
+.recent_shows_header {
+	text-align:center;
+	margin-top: 40px;
+}
+
+#nav_shows {
+	background-image: url('../images/nav_item_bg.png');
+}

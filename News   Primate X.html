@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="News%20%20%20Primate%20X_files/fonts.css" type="text/css">
+	<link rel="stylesheet" href="News%20%20%20Primate%20X_files/base.css" type="text/css">
+	<link rel="stylesheet" href="News%20%20%20Primate%20X_files/fundraiser.css" type="text/css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+
+	<script id="facebook-jssdk" src="News%20%20%20Primate%20X_files/all.js"></script><script type="text/javascript" async="" src="News%20%20%20Primate%20X_files/ga.js"></script><script src="News%20%20%20Primate%20X_files/jquery.js"></script>
+	<script src="News%20%20%20Primate%20X_files/jquery_002.js"></script>
+	<script src="News%20%20%20Primate%20X_files/firsttime.js"></script>
+
+    <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+
+<link rel="stylesheet" href="News%20%20%20Primate%20X_files/news.css" type="text/css">
+<title>News | Primate X</title>
+
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_customer_chat_bounce_in{animation-duration:250ms;animation-name:fb_bounce_in}.fb_customer_chat_bounce_out{animation-duration:250ms;animation-name:fb_fade_out}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}.fb_mobile_overlay_active{background-color:#fff;height:100%;overflow:hidden;position:fixed;visibility:hidden;width:100%}@keyframes fb_fade_out{from{opacity:1}to{opacity:0}}@keyframes fb_bounce_in{0%{opacity:0;transform:scale(.8, .8);transform-origin:100% 100%}10%{opacity:.1}20%{opacity:.2}30%{opacity:.3}40%{opacity:.4}50%{opacity:.5}60%{opacity:.6}70%{opacity:.7}80%{opacity:.8;transform:scale(1.03, 1.03)}90{opacity:.9}100%{opacity:1;transform:scale(1, 1)}}</style></head>
+<body>
+
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" style="border: medium none;" src="http://staticxx.facebook.com/connect/xd_arbiter/r/FdM1l_dpErI.js?version=42#channel=f2115d04b54089a&amp;origin=http%3A%2F%2Fprimate-x.com" frameborder="0"></iframe><iframe name="fb_xdm_frame_https" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" style="border: medium none;" src="News%20%20%20Primate%20X_files/FdM1l_dpErI_002.htm" frameborder="0"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="f1546236d4ab706" allowtransparency="true" allowfullscreen="true" scrolling="no" style="display: none;" src="News%20%20%20Primate%20X_files/ping.htm" frameborder="0"></iframe></div></div></div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36526150-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=264487440338761";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	
+	<div id="single_div">
+	<a href="http://www.primate-x.com/music/a-fools-game/"><img id="new_single_out" src="News%20%20%20Primate%20X_files/new_album_out_now.png" alt="New album out now!"></a>
+	</div>
+	<div id="logo_div">
+		<!--
+		<div id="head_jp_div" class="show_on_mouse_over">
+			<img id="head_jp" src="/static/images/heads/head_jp.png" alt="JAPE"/>
+			<img id="info_jp" src="/static/images/info/info_jape.png" alt="JAPE"/>
+		</div>
+
+		<div id="head_anton_div" class="show_on_mouse_over">
+			<img id="head_anton" src="/static/images/heads/head_anton.png" alt="Anton"/>
+			<img id="info_anton" src="/static/images/info/info_anton.png" alt="Anton"/>
+		</div>
+
+		<div id="head_felix_div" class="show_on_mouse_over">
+			<img id="head_felix" src="/static/images/heads/head_felix.png" alt="Felix"/>
+			<img id="info_felix" src="/static/images/info/info_felix.png" alt="Felix"/>
+		</div>
+
+		<div id="head_max_div" class="show_on_mouse_over">
+			<img id="head_max" src="/static/images/heads/head_max.png" alt="Max"/>
+			<img id="info_max" src="/static/images/info/info_max.png" alt="Max"/>
+		</div>
+
+		<script type="text/javascript">
+			$(".show_on_mouse_over").children().hide();
+			$(".show_on_mouse_over").hover(	function(e) { $(this).children().stop().fadeTo(600, 1) },
+											function(e) { $(this).children().stop().fadeTo(600, 0) });
+		</script>
+		!-->
+
+		<div id="fb_fan_page_like_div">
+			<div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/PrimateXband" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=264487440338761&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2FPrimateXband&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=100"><span style="vertical-align: bottom; width: 74px; height: 20px;"><iframe name="f2bfaf21af7e954" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" style="border: medium none; visibility: visible; width: 74px; height: 20px;" src="News%20%20%20Primate%20X_files/like.htm" class="" width="100px" height="1000px" frameborder="0"></iframe></span></div>
+		</div>
+		<div id="top_icons_div">
+			<a href="http://www.facebook.com/pages/Primate-X/143518575659108" target="_blank"><img class="top_icon" src="News%20%20%20Primate%20X_files/Facebook_icon.png" alt="Facebook"></a><a href="http://open.spotify.com/artist/18lIbhf8Dz1qBSN5HgNiJR" target="_blank"><img class="top_icon" src="News%20%20%20Primate%20X_files/Spotify_icon.png" alt="Spotify"></a><a href="mailto:contact@primate-x.com" target="_blank"><img class="top_icon" src="News%20%20%20Primate%20X_files/Mail_icon.png" alt="Mail"></a>
+		</div>
+	</div>
+	<div id="mid_container">
+		<div id="top_bar">
+			<table>
+				<tbody><tr>
+					<td id="nav_home"><a href="Home%20_%20Primate%20X.html"><div class="nav_text">HOME</div></a></td>
+					<td id="nav_news"><a href="News%20%20 Primate X.html"><div class="nav_text">NEWS</div></a></td>
+					<td id="nav_shows"><a href="Shows%20%20 Primate X.html"><div class="nav_text">SHOWS</div></a></td>
+					<td id="nav_music"><a href="Music%20%20 Primate X.html"><div class="nav_text">MUSIC</div></a></td>
+					<td id="nav_media"><a href="Media%20%20 Primate X.html"><div class="nav_text">MEDIA</div></a></td>
+				</tr>
+			</tbody></table>
+		</div>
+		
+		<div id="content_container">
+
+			
+
+<div id="news_div">
+	
+		
+
+<div class="news_article_div">
+	<h1 class="news_header">Primate News</h1>
+	<h2 class="news_pub_date">Dec 22, 2013</h2>
+	<div class="news_main_text">
+		<p>*BEEPETY-BOOP-BEEP-BOOP-BEEPETY-BEEEEEEEEP*</p>
+
+<p>As every proud parent knows, one's mutant offspring must eventually 
+be released blindfolded into the wilderness to fend for itself. With 
+only its wits and its teeth for protection, it must find ways to protect
+ itself from the lurking subliminal beasts, unpredictable emotional 
+weather-conditions and flesh eating vegetables out there. It must also 
+be allowed to do all this without further interference from us, to 
+ensure a proper crucible to be survived and overcome, instead of a false
+ and hollow rite of passage in a huge bouncy-castle where sustenance is 
+catapulted into the gaping maws of monstrously huge child-monsters in 
+between forcefully administered hypnosis-sessions. We want our beloved 
+little beast to enjoy its first steps in the big world alone and 
+defenseless, because we know it'll make for some very interesting 
+results. The time has come.</p>
+
+<p>On the 1st of January 2014, our beloved brood, a rare form if 
+simian-shaped hybrid Chimaera disguised as a full-length album of music 
+entitled "A Fool's Game" will be released onto the world-wide web. We 
+know that once it creeps up close to you and whispers in your ear you 
+will invite the strangely familiar feeling of its tiny claws gripping 
+tighter and tighter around your neck. You may even grow to love it and 
+find life inexplicably difficult without it. We most certainly do.</p>
+
+<p>To demonstrate what we mean, we have managed to hack off some of its 
+limbs (don't worry, they grow back) and capture some fine slivers of its
+ very essence through the mystic art of electro-neuro-alchemy. With 
+these acquired materials we have compiled a small gift, to place upon 
+the shining plastic altar of the demon we call "Yu-Tuub". For your own 
+twisted pleasure, you will be able to enjoy the ritual burning of this 
+gift in the company of the great Yu-Tuub until the actual release of our
+ beast.</p>
+
+<p>Once our dear creature has survived and matured for a few weeks, a 
+celebration will be held to mark its coming of age, and we will be 
+ceremonially distributing small, flat, disc-shaped containers with the 
+music ingeniously stored in tiny scratches on the surface of these 
+objects. Exact date, time and place to be announced shortly.</p>
+
+<p>Take care out there, and don't be scared when you feel something 
+small and furry creep up along your spine onto your shoulder and smiles 
+its razor smile at you, that's just the way we taught it to behave.</p>
+<br>
+<br>
+<iframe src="//www.youtube.com/embed/5CyqOD9L5pw" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+<br><br><br>
+<p>*BEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEP*</p>
+	</div>
+	<div class="fb-comments fb_iframe_widget" data-href="http://www.primate-x.com/news/11" data-num-posts="2" data-colorscheme="dark" fb-xfbml-state="rendered"><span style="height: 425px; width: 550px;"><iframe id="f26c8ee9ab366e2" name="f3401b08f93b232" scrolling="no" style="border: medium none; overflow: hidden; height: 425px; width: 550px;" title="Facebook Social Plugin" class="fb_ltr" src="https://www.facebook.com/plugins/comments.php?api_key=264487440338761&amp;channel_url=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FFdM1l_dpErI.js%3Fversion%3D42%23cb%3Df129bb95d167086%26domain%3Dprimate-x.com%26origin%3Dhttp%253A%252F%252Fprimate-x.com%252Ff2115d04b54089a%26relation%3Dparent.parent&amp;colorscheme=dark&amp;href=http%3A%2F%2Fwww.primate-x.com%2Fnews%2F11&amp;locale=en_US&amp;numposts=2&amp;sdk=joey&amp;skin=dark&amp;width=550"></iframe></span></div>
+</div>
+
+    
+		
+
+<div class="news_article_div" style="display: block;">
+	<h1 class="news_header">Primate News</h1>
+	<h2 class="news_pub_date">Aug 23, 2013</h2>
+	<div class="news_main_text">
+		<p>*BEEEEEEEEEPETYBOOOP-BEEP-BEEP-BEEEEEEEEEEEEEEEEP*</p> <p>As many of you surely know, the only real constant in life is change, this too shall pass.</p> <p>As
+ we bid a fond farewell to Anton Holmberg who will always be an integral
+ part of Primate X and wish him the best of fortune in all his future 
+endeavors, Primate X sprouts a new bass-playing member by the name of 
+Emil Wallentin. When he sent a small monkey with aparty-hat and a 
+ukulele to audition in his place, the immediate consensus was to insist 
+on Emil joining the band, as long as the monkey was part of the deal.</p> <p>We
+ are looking forward to performing in front of a bloodthirsty crowd of 
+savages with this new line-up,dates have been and will continue to be 
+announced on the Intertubes.</p> <p>Also, we may just have procured some
+ fresh musical specimens to throw right down your gullets at our 
+upcoming shows, so be sure to bring protective goggles and bibs, to make
+ your enjoyment as mess-free and delicious as possible.</p> <p>Not to 
+give away too much, but we may just have developed something so wriggly 
+and vicious that we can barely hold onto it, so letting you get your 
+hands on it and giving it a go is all we can think of doing.</p> <p>So, 
+until the next Primate X circus is in town, and our noise once again 
+fills your ears while you fill our hearts with joy and serve as acoustic
+ meat-obstacles for the sound-engineer, stay filthy and beware of 
+imitation brand primates, we sadly cannot guarantee their flavor.</p> <p></p>*BEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEP*
+	</div>
+	<div class="fb-comments fb_iframe_widget" data-href="http://www.primate-x.com/news/10" data-num-posts="2" data-colorscheme="dark" fb-xfbml-state="rendered"><span style="height: 181px; width: 550px;"><iframe id="f513bd0517d2a6" name="f26a7b0dd04510e" scrolling="no" style="border: medium none; overflow: hidden; height: 181px; width: 550px;" title="Facebook Social Plugin" class="fb_ltr" src="https://www.facebook.com/plugins/comments.php?api_key=264487440338761&amp;channel_url=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FFdM1l_dpErI.js%3Fversion%3D42%23cb%3Df1d7b459ee8e522%26domain%3Dprimate-x.com%26origin%3Dhttp%253A%252F%252Fprimate-x.com%252Ff2115d04b54089a%26relation%3Dparent.parent&amp;colorscheme=dark&amp;href=http%3A%2F%2Fwww.primate-x.com%2Fnews%2F10&amp;locale=en_US&amp;numposts=2&amp;sdk=joey&amp;skin=dark&amp;width=550"></iframe></span></div>
+</div>
+
+    
+		
+
+<div class="news_article_div" style="display: block;">
+	<h1 class="news_header">Primate News</h1>
+	<h2 class="news_pub_date">Feb 7, 2013</h2>
+	<div class="news_main_text">
+		<p>The NEW exclusive Primate X T-shirt, designed by Lorenzo JC 
+Strekelj has arrived! You can buy it at our shows (only cash) or send us
+ an email to merch@primate-x.com! Price: 150 kr, sizes: S, M, L.</p>
+<img src="News%20%20%20Primate%20X_files/px-shirt-smaller.png" alt="Primate X T-shirt">
+	</div>
+	<div class="fb-comments fb_iframe_widget" data-href="http://www.primate-x.com/news/9" data-num-posts="2" data-colorscheme="dark" fb-xfbml-state="rendered"><span style="height: 371px; width: 550px;"><iframe id="fc5add5a187186" name="f12f8878c1c97e4" scrolling="no" style="border: medium none; overflow: hidden; height: 371px; width: 550px;" title="Facebook Social Plugin" class="fb_ltr" src="https://www.facebook.com/plugins/comments.php?api_key=264487440338761&amp;channel_url=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FFdM1l_dpErI.js%3Fversion%3D42%23cb%3Df198f3090a71964%26domain%3Dprimate-x.com%26origin%3Dhttp%253A%252F%252Fprimate-x.com%252Ff2115d04b54089a%26relation%3Dparent.parent&amp;colorscheme=dark&amp;href=http%3A%2F%2Fwww.primate-x.com%2Fnews%2F9&amp;locale=en_US&amp;numposts=2&amp;sdk=joey&amp;skin=dark&amp;width=550"></iframe></span></div>
+</div>
+
+    
+		
+
+<div class="news_article_div" style="display: block;">
+	<h1 class="news_header">Primate News</h1>
+	<h2 class="news_pub_date">Jan 27, 2013</h2>
+	<div class="news_main_text">
+		<p>It's a big pleasure for us to finally present our new music video 
+"Game", taken from our upcoming album "A Fool's Game"! Press the play 
+button and enjoy the ride!<br><br></p>
+
+<iframe src="http://www.youtube.com/embed/06fGFJ5CoQQ" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+
+<br><br><br>
+	</div>
+	<div class="fb-comments fb_iframe_widget" data-href="http://www.primate-x.com/news/8" data-num-posts="2" data-colorscheme="dark" fb-xfbml-state="rendered"><span style="height: 260px; width: 550px;"><iframe id="facd58b5698d6a" name="fbbbc6302c8562" scrolling="no" style="border: medium none; overflow: hidden; height: 260px; width: 550px;" title="Facebook Social Plugin" class="fb_ltr" src="https://www.facebook.com/plugins/comments.php?api_key=264487440338761&amp;channel_url=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FFdM1l_dpErI.js%3Fversion%3D42%23cb%3Dff758fcdddfbba%26domain%3Dprimate-x.com%26origin%3Dhttp%253A%252F%252Fprimate-x.com%252Ff2115d04b54089a%26relation%3Dparent.parent&amp;colorscheme=dark&amp;href=http%3A%2F%2Fwww.primate-x.com%2Fnews%2F8&amp;locale=en_US&amp;numposts=2&amp;sdk=joey&amp;skin=dark&amp;width=550"></iframe></span></div>
+</div>
+
+    
+		
+
+<div class="news_article_div" style="display: block;">
+	<h1 class="news_header">Primate News</h1>
+	<h2 class="news_pub_date">Nov 22, 2012</h2>
+	<div class="news_main_text">
+		<img src="News%20%20%20Primate%20X_files/cover_surrounded.png" alt="Surrounded Single Cover">
+<p>OOOOOOOOOOooooooo-WOOOOOOOOOOOOOOOOOP!!!</p>
+
+<p>
+Allthough it's been wriggling, squirming and biting, we've managed to corner a particularly
+devious little beast for your enjoyment (and our own, to be fair).</p>
+
+<p>
+It has now agreed to cooperate and join our little musical circus of doom, so we are proud to
+present, for your listening pleasure. The single version of "Surrounded"! Now available for FREE download! Click <a href="http://primate-x.com/music/surrounded/">here</a> to get a copy!
+</p>
+<p>Thanks to Lorenzo JC Strekelj for creating the awesome artwork and Henrik Gennert for his insane mixing skills!</p>
+<p>
+Stay tuned for more filthy primate news and announcements.</p>
+	</div>
+	<div class="fb-comments fb_iframe_widget" data-href="http://www.primate-x.com/news/7" data-num-posts="2" data-colorscheme="dark" fb-xfbml-state="rendered"><span style="height: 336px; width: 550px;"><iframe id="f217bd439aa4e06" name="f39e9ab6de435e" scrolling="no" style="border: medium none; overflow: hidden; height: 336px; width: 550px;" title="Facebook Social Plugin" class="fb_ltr" src="https://www.facebook.com/plugins/comments.php?api_key=264487440338761&amp;channel_url=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FFdM1l_dpErI.js%3Fversion%3D42%23cb%3Df17058c6d2c02%26domain%3Dprimate-x.com%26origin%3Dhttp%253A%252F%252Fprimate-x.com%252Ff2115d04b54089a%26relation%3Dparent.parent&amp;colorscheme=dark&amp;href=http%3A%2F%2Fwww.primate-x.com%2Fnews%2F7&amp;locale=en_US&amp;numposts=2&amp;sdk=joey&amp;skin=dark&amp;width=550"></iframe></span></div>
+</div>
+
+    
+		
+
+<div class="news_article_div" style="display: block;">
+	<h1 class="news_header">Primate News</h1>
+	<h2 class="news_pub_date">Oct 1, 2012</h2>
+	<div class="news_main_text">
+		<p>
+OOOOOooooo-WOOOOOOP!!!
+</p>
+<p>
+Greetings and squeezing to all you simians, chimps and naked apes out there!<br>
+A lot of water has passed under the bridge since we had some real news 
+to report, the reason being an insolent and uncontrollable string of 
+delays affecting our album's production, but we've managed to subdue the
+ beast now, so the road ahead seems clear of obstacles (for now).
+</p>
+
+<p>
+As many of you probably know, we have recorded all of the tracks, 
+designed all of the artwork for the cover, laid out a plan for how we 
+are going to release the album itself and finally, we are just about to 
+finish the final mixes on the last couple of tracks, after which it's 
+time for mastering. In other words, despite having to tear ourselves a 
+new one every five minutes just to make sure the album actually gets 
+made, we're right on the finish-line now and almost ready to share the 
+results with you.
+</p>
+
+<p>
+Dates for the actual release and for the release-party will be announced
+ shortly. Basically, you'll all be able to buy/order the record directly
+ from us and all of the proceeds will go directly into Primate X and 
+nowhere else. All middlemen are cordially invited to go suck a canine's 
+rectum until it bleeds so that we can keep enjoying music and supporting
+ each other in our quest for new forms of communication.
+</p>
+
+<p>
+Last, but not least, we are also combining the release of the record 
+with the production of no less than TWO music videos, for the tracks 
+"Surrounded" and "Game" respectively. We're looking forward to start 
+filming and editing them so that we can put some insane visuals for you 
+up on the Tube of You.
+</p>
+
+<p>
+So, until next time, keep your ears to the ground and your tails and 
+fists in the air, because it's almost time to play the FOOL'S GAME!
+</p>
+	</div>
+	<div class="fb-comments fb_iframe_widget" data-href="http://www.primate-x.com/news/1" data-num-posts="2" data-colorscheme="dark" fb-xfbml-state="rendered"><span style="height: 181px; width: 550px;"><iframe id="f1f2bd8fbf0783c" name="f3907f179c1bff" scrolling="no" style="border: medium none; overflow: hidden; height: 181px; width: 550px;" title="Facebook Social Plugin" class="fb_ltr" src="https://www.facebook.com/plugins/comments.php?api_key=264487440338761&amp;channel_url=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FFdM1l_dpErI.js%3Fversion%3D42%23cb%3Dfaba6f872b992a%26domain%3Dprimate-x.com%26origin%3Dhttp%253A%252F%252Fprimate-x.com%252Ff2115d04b54089a%26relation%3Dparent.parent&amp;colorscheme=dark&amp;href=http%3A%2F%2Fwww.primate-x.com%2Fnews%2F1&amp;locale=en_US&amp;numposts=2&amp;sdk=joey&amp;skin=dark&amp;width=550"></iframe></span></div>
+</div>
+
+    
+		
+
+<div class="news_article_div" style="display: block;">
+	<h1 class="news_header">Primate News</h1>
+	<h2 class="news_pub_date">Mar 23, 2012</h2>
+	<div class="news_main_text">
+		<p>Greetings and squeezing to all you monkeys out there!<br>
+Time for a Primate update.</p>
+
+<p>
+We have reached the final part of the recording process for the 
+forthcoming album. As many you know, we've named it "A Fool's Game". 
+There are many reasons, some clear, some not. More about that later...
+</p>
+
+<p>
+Sometime in mid April, the post production will be in its final phase 
+and after mastering the final mix, the record will be... DONE! We expect
+ to be able to share it with you in early May.
+</p>
+
+<p>
+These past few months of recording and performing the songs for you have
+ been incredible and have given us invaluable experience and insight. A 
+very special thank you must go to all of you lovely people who have been
+ coming to our shows. You are our backbone and you are very appreciated.
+ We're looking forward to serving you some more ape at the next 
+concerts. :P
+<br>More dates will be announced shortly, as we are in the process of booking a few gigs in Stockholm and beyond, so check <a href="http://www.primate-x.com/" target="_blank">www.primate-x.com</a> for updates.</p>
+
+<p>
+IMPORTANT NOTICE:<br>Primate X needs your votes!!!<br>Please visit <a href="http://lillemanfestivalen.se/vote" target="_blank">http://lillemanfestivalen.se/vote</a>
+ and cast your vote on us, thus helping us secure a spot in the line-up 
+this July. Tell EVERYONE YOU KNOW to vote. Tell strangers in the street 
+if necessary. :-D</p>
+
+<p>
+Last but not least, the first part of our studio-diary documenting the 
+making of A Fool's Game is finished and up on Youtube. Hope you like the
+ little peek into part of our working-process, in all it's horrible 
+uncensored filth and glory. Enjoy!</p>
+
+<p>
+To be continued...
+</p>
+	</div>
+	<div class="fb-comments fb_iframe_widget" data-href="http://www.primate-x.com/news/3" data-num-posts="2" data-colorscheme="dark" fb-xfbml-state="rendered"><span style="height: 181px; width: 550px;"><iframe id="f2435be51433584" name="f2eda1eab8e8c1c" scrolling="no" style="border: medium none; overflow: hidden; height: 181px; width: 550px;" title="Facebook Social Plugin" class="fb_ltr" src="https://www.facebook.com/plugins/comments.php?api_key=264487440338761&amp;channel_url=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FFdM1l_dpErI.js%3Fversion%3D42%23cb%3Df28c48dd2121a66%26domain%3Dprimate-x.com%26origin%3Dhttp%253A%252F%252Fprimate-x.com%252Ff2115d04b54089a%26relation%3Dparent.parent&amp;colorscheme=dark&amp;href=http%3A%2F%2Fwww.primate-x.com%2Fnews%2F3&amp;locale=en_US&amp;numposts=2&amp;sdk=joey&amp;skin=dark&amp;width=550"></iframe></span></div>
+</div>
+
+    
+		
+
+<div class="news_article_div" style="display: block;">
+	<h1 class="news_header">Primate News</h1>
+	<h2 class="news_pub_date">Jan 24, 2012</h2>
+	<div class="news_main_text">
+		<p>*BEEEP BEEEP BOOPETY BOOP BEEEEEEEEEEEEEP*</p>
+
+		<p>So, after all the mandatory delays and postponements we have now 
+(finally) begun recording the follow-up to the Leave it to Bleed EP, our
+ first full-length album, "A Fool's Game" in a sound-proofed corner of 
+our enclosure at the zoo. No chimps were harmed in the making of this 
+music.</p>
+
+		<p>We've spent these past couple of months rehearsing, planning the 
+recording process and designing the cover, meaning that we've played the
+ songs until we're properly satisfied, sat in rooms talking about time 
+and dates, spent time in a studio recording one-take live versions of 
+the songs, stood in fields taking strange pictures, and basically just 
+working hard and sleeping very sporadically.</p>
+
+		<p>But now, the time has come yet again for us to make noise at you.
+In other words, we're gonna start booking ourselves up for the rest of 
+the year now, and by the looks of it, we'll be venturing outside of our 
+hometown for a couple of shows before summer, with more to follow later 
+in the year.</p>
+
+		<p>Also, sometime this summer, there will be a large release-party for
+ the album, so make sure you secure a helmet and goggles for the day as 
+soon as it's announced, for your own safety.</p>
+
+		<p>To be continued...</p>
+
+		<p>/ Primate X</p>
+	</div>
+	<div class="fb-comments fb_iframe_widget" data-href="http://www.primate-x.com/news/4" data-num-posts="2" data-colorscheme="dark" fb-xfbml-state="rendered"><span style="height: 181px; width: 550px;"><iframe id="f14070175ae11f" name="f2790d948123036" scrolling="no" style="border: medium none; overflow: hidden; height: 181px; width: 550px;" title="Facebook Social Plugin" class="fb_ltr" src="https://www.facebook.com/plugins/comments.php?api_key=264487440338761&amp;channel_url=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FFdM1l_dpErI.js%3Fversion%3D42%23cb%3Df1f734656317f14%26domain%3Dprimate-x.com%26origin%3Dhttp%253A%252F%252Fprimate-x.com%252Ff2115d04b54089a%26relation%3Dparent.parent&amp;colorscheme=dark&amp;href=http%3A%2F%2Fwww.primate-x.com%2Fnews%2F4&amp;locale=en_US&amp;numposts=2&amp;sdk=joey&amp;skin=dark&amp;width=550"></iframe></span></div>
+</div>
+
+    
+		
+
+<div class="news_article_div" style="display: block;">
+	<h1 class="news_header">Primate News</h1>
+	<h2 class="news_pub_date">Aug 11, 2011</h2>
+	<div class="news_main_text">
+		<p>Here's a short and snappy little news-jiffy.</p>
+
+		<p>
+		After freely roaming the Earth for a month, Primate X is back in 
+Stockholm and solidifying once again.
+		We've been itching to play live for a while now, so we'll gently kick 
+things off by appearing on Rocket FM 95.3 on Monday the 15/Aug, where 
+we'll rant about everything and nothing and play a few songs for you, 
+live and acoustic. Later that week, on Wednesday the 17th, we'll have a 
+little show at Harry B. James in central Stockholm, so make sure you 
+keep your protective goggles and comfort-blankets with you at all times.
+ Otherwise, we cannot vouch for your personal safety or structural 
+inftegrity.</p>
+		<p>
+		Furthermore, we are invading Göta Källare on the 1st of September 
+together with a few of our favourite artists from Stockholm, with the 
+singular purpose of opening our collective floodgates and diving 
+headfirst into music.<br> 
+		Teeth will gnash, feet will stomp, guitars and drums will thunder and 
+free cake will be fired at the crowd from our brand new 88mm cake-cannon
+ mounted above the stage.<br>
+		We use only the finest lead-based frosting on our cake.<br>
+		For your wellness.<br>
+
+		</p>
+		<p>
+
+		</p><p>
+		Finally, we're planning on recording and/or streaming footage of us 
+playing the newest tracks we're working on as a monthly release on 
+www.primate-x.com, so that we get a chance to share what we're doing 
+with all of you as often as possible.<br> 
+		Video recording and/or streamed footage directly from rehearsals and 
+such will soon be available in the media-section of our homepage, so 
+stay tuned.<br>
+		We've been writing lots of new material these past months and we are 
+about to start testing it out on unsuspecting crowds of people.<br>
+		The plan is to record all of the new tracks this autumn, add water and bake for X months.<br>
+		Resulting in an album. Probably ready for some kind of release and consumption in the winter/spring.<br> 
+		So far, that's the news. When there's some newer news, we'll news the news news news.
+		</p>
+
+		<p>
+		Keep it surreal,
+		</p>
+		
+		<p>
+		/ Primate X
+		</p>
+	</div>
+	<div class="fb-comments fb_iframe_widget" data-href="http://www.primate-x.com/news/5" data-num-posts="2" data-colorscheme="dark" fb-xfbml-state="rendered"><span style="height: 181px; width: 550px;"><iframe id="f16b1ff63032448" name="feb123bc6e6e3c" scrolling="no" style="border: medium none; overflow: hidden; height: 181px; width: 550px;" title="Facebook Social Plugin" class="fb_ltr" src="https://www.facebook.com/plugins/comments.php?api_key=264487440338761&amp;channel_url=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FFdM1l_dpErI.js%3Fversion%3D42%23cb%3Df6f96611fb272a%26domain%3Dprimate-x.com%26origin%3Dhttp%253A%252F%252Fprimate-x.com%252Ff2115d04b54089a%26relation%3Dparent.parent&amp;colorscheme=dark&amp;href=http%3A%2F%2Fwww.primate-x.com%2Fnews%2F5&amp;locale=en_US&amp;numposts=2&amp;sdk=joey&amp;skin=dark&amp;width=550"></iframe></span></div>
+</div>
+
+    
+		
+
+<div class="news_article_div" style="display: block;">
+	<h1 class="news_header">Primate News</h1>
+	<h2 class="news_pub_date">Jun 11, 2011</h2>
+	<div class="news_main_text">
+		<p>
+Well, it's been quite a busy year for us so far, lots of good things 
+have been happening lately, and it feels like all our hard work is 
+really paying off.</p>
+<p>
+The support we've had from all of you lovely people and/or monkeys in 
+the audience at the last couple of shows has been incredible, and 
+needless to say, it inspires us to perform better and better each time.
+Thank you all so much, you are our backbone.
+The spine that supports the primate.
+</p>
+<p>
+Also, many special thanks to all of our friends and families for showing
+ up at so many of our shows and generally being there for us, and last 
+but definitely not least to all of the people who've have helped us 
+realise this project. Especially Henrik, Billy and Patrik. :-D </p>
+<p>
+The long awaited launching of our new vessel, an EP we named "Leave it 
+to Bleed", (Produced by Henrik Gennert and Mastered at Cutting Room 
+Studios by Mats 'Limpan' Lindfors) seems to have generated a lot of 
+interest out there, and we're preparing to bombard the airwaves with it 
+this month.
+Put on your helmets, hang on to your organs, get with the program.</p>
+<p>
+Physical CDs will be available with cover-art and all, but for now, the 
+free download from our brand new domain at www.primate-x.com is the way 
+to go. If you happen to feel like you need higher sound quality than 
+192kbps, feel free to write a few lines to the team of magic elves who 
+build our music out of sawdust, mud and the numerous bodies of their 
+fallen enemies, the mole-people.</p>
+<p>
+Finally, an update concerning our live shows, recent and future.
+On the 4th of June, Primate X played at the the Emergenza Stockholm 
+regional finals at Debaser Medis, and as it turned out, we came in at #1
+ with a massive audience vote (such a beautiful sight from the stage to 
+see you all there, absolutely unforgettable.) and moreover, the other 
+bands all voted us in at #1 as well! We were pretty much speechless 
+about that one. It's a humbling experience to say the least. We'll never
+ forget this.
+</p>
+<p>
+Finally, to top it all off in the most magnificent way possible, Anton 
+won the award for best bass-player, an honor he well deserves. Way to go
+ Anton!!! :-D
+</p>
+<p>
+The whole band, and practically every audience member we've spoken to 
+agrees that the show at the Emergenza finals was one of our best, if not
+ THE best to date, and of course, we're itching to play on a stage again
+ soon, which brings me neatly to my next point.</p>
+<p>
+We plan to play a lot of new material at our upcoming shows, so make 
+sure you bring your recording equipment to catch the songs while they're
+ young, juicy and tender. :P</p>
+<p>
+So, to recap, the music will start playing in the streets, we will blast
+ it out live in the clubs, more songs will be written, and as soon as 
+possible, they too shall be recorded and distributed merrily to all of 
+you out there.
+</p>
+<p>
+To be continued...
+</p>
+<p>
+/ Primate X
+</p>
+	</div>
+	<div class="fb-comments fb_iframe_widget" data-href="http://www.primate-x.com/news/6" data-num-posts="2" data-colorscheme="dark" fb-xfbml-state="rendered"><span style="height: 181px; width: 550px;"><iframe id="f33f13d5ca697e" name="f2ec8d662bb957" scrolling="no" style="border: medium none; overflow: hidden; height: 181px; width: 550px;" title="Facebook Social Plugin" class="fb_ltr" src="https://www.facebook.com/plugins/comments.php?api_key=264487440338761&amp;channel_url=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FFdM1l_dpErI.js%3Fversion%3D42%23cb%3Df35538eca011d6%26domain%3Dprimate-x.com%26origin%3Dhttp%253A%252F%252Fprimate-x.com%252Ff2115d04b54089a%26relation%3Dparent.parent&amp;colorscheme=dark&amp;href=http%3A%2F%2Fwww.primate-x.com%2Fnews%2F6&amp;locale=en_US&amp;numposts=2&amp;sdk=joey&amp;skin=dark&amp;width=550"></iframe></span></div>
+</div>
+
+    
+</div>
+
+
+
+
+			
+		</div>
+	</div>
+
+</body></html>

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.news_pub_date {
+	font-size: 9pt;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.news_header {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+.news_article_div {
+	margin-bottom: 50px;
+}
+
+#show_old_text_link {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+#nav_news {
+	background-image: url('../images/nav_item_bg.png');
+}

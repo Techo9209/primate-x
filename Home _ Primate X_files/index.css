@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#biography_header {
+	margin-top: 0px;
+}
+
+#nav_home {
+	background-image: url('../images/nav_item_bg.png');
+}
+
+#game_video {
+	margin-bottom: 40px;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

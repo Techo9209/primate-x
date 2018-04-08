@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MyGillSansMTPro-Medium';
+    src: url('../fonts/GillSansMTPro-Medium.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/GillSansMTPro-Medium.ttf') format('truetype')
+}
